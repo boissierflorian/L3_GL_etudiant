@@ -1,0 +1,18 @@
+#include <CppUTest/CommandLineTestRunner.h>
+
+#include "Vec2.hpp"
+
+TEST_GROUP(GroupVec2) { };
+
+TEST(GroupVec2, Vec2_test1) 
+{
+  Vec2 vec{0, 0};
+  Vec2 vec2{-1, 1};
+
+  CHECK_EQUAL(-1, (vec + vec2).x_);
+  CHECK_EQUAL(1, (vec + vec2).y_);
+  CHECK_EQUAL(1, (vec - vec2).x_);
+  CHECK_EQUAL(-1, (vec - vec2).y_);
+  CHECK_EQUAL(-1, (1 * vec2).x_);
+  CHECK_EQUAL(1, (1 * vec2).y_);
+}

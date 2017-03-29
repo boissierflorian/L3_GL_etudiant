@@ -1,5 +1,6 @@
 #include <fstream>
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -10,7 +11,6 @@ int main(int argc, char ** argv) {
         exit(-1);
     }
 
-    int * V = nullptr;
     try {
         cout << "Open file\n";
         ifstream file(argv[1]);
@@ -20,22 +20,27 @@ int main(int argc, char ** argv) {
         uint64_t N;
         file >> N;
 
-        cout << "Allocate V\n";
-        V = new int [N];
+        cout << "Allocate V\n";	
+	vector<int> vec(N);
 
+	int n;
+	
         cout << "Read V\n";
-        for (unsigned i=0; i<N; i++)
-            file >> V[i];
 
+	for (unsigned i=0; i<N; i++)
+	{
+	  file >> n;
+	  vec[i] = n; 
+        }
+	
         cout << "Print V\n";
         for (unsigned i=0; i<N; i++)
-            cout << V[i] << " ";
+            cout << vec[i] << " ";
         cout << endl;
 
     } 
     catch (exception & e) {
         cout << "caught exception: " << e.what() << endl;
-        if (V) delete [] V;
         exit(-1);
     }
 

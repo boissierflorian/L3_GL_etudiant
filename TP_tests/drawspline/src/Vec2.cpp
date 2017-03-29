@@ -9,6 +9,5 @@ Vec2 operator*(double k, const Vec2 & v) {
 }
 
 Vec2 operator-(const Vec2 & v1, const Vec2 & v2) {
-    return Vec2{v1.x_ + v2.x_, v1.y_ + v2.y_};
+    return Vec2{v1.x_ - v2.x_, v1.y_ - v2.y_};
 }
-

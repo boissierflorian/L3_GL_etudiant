@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/florian/Bureau/L3_GL_etudiant/TP_tests/fibo/src/Fibo.cpp
+Fibo.hpp
+/home/florian/Bureau/L3_GL_etudiant/TP_tests/fibo/src/Fibo.hpp
+cassert
+-
+
+/home/florian/Bureau/L3_GL_etudiant/TP_tests/fibo/src/Fibo.hpp
+
+/home/florian/Bureau/L3_GL_etudiant/TP_tests/fibo/src/print_fibo.cpp
+Fibo.hpp
+/home/florian/Bureau/L3_GL_etudiant/TP_tests/fibo/src/Fibo.hpp
+iostream
+-
+

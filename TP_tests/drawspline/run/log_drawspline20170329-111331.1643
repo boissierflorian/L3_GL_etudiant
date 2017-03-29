@@ -1,0 +1,8 @@
+Log file created at: 2017/03/29 11:13:31
+Running on machine: FlorianPC
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0329 11:13:31.875414  1643 drawspline.cpp:14] begin
+I0329 11:13:31.875567  1643 drawspline.cpp:17] create spline
+I0329 11:13:31.875572  1643 drawspline.cpp:22] add keys
+E0329 11:13:31.875617  1643 Spline.cpp:10] Keys should be added in ascending times
+I0329 11:13:31.875753  1643 drawspline.cpp:44] end

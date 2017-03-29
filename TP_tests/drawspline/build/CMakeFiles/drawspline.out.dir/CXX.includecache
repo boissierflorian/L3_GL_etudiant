@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/florian/Bureau/L3_GL_etudiant/TP_tests/drawspline/src/Spline.cpp
+Spline.hpp
+/home/florian/Bureau/L3_GL_etudiant/TP_tests/drawspline/src/Spline.hpp
+cassert
+-
+cmath
+-
+string
+-
+glog/logging.h
+-
+
+/home/florian/Bureau/L3_GL_etudiant/TP_tests/drawspline/src/Spline.hpp
+Vec2.hpp
+/home/florian/Bureau/L3_GL_etudiant/TP_tests/drawspline/src/Vec2.hpp
+vector
+-
+
+/home/florian/Bureau/L3_GL_etudiant/TP_tests/drawspline/src/Vec2.cpp
+Vec2.hpp
+/home/florian/Bureau/L3_GL_etudiant/TP_tests/drawspline/src/Vec2.hpp
+
+/home/florian/Bureau/L3_GL_etudiant/TP_tests/drawspline/src/Vec2.hpp
+
+/home/florian/Bureau/L3_GL_etudiant/TP_tests/drawspline/src/drawspline.cpp
+Spline.hpp
+/home/florian/Bureau/L3_GL_etudiant/TP_tests/drawspline/src/Spline.hpp
+iostream
+-
+string
+-
+glog/logging.h
+-
+
